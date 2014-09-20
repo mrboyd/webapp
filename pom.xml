@@ -18,4 +18,11 @@
   <build>
     <finalName>web_app1</finalName>
   </build>
+  <distributionManagement>
+    <repository>
+        <id>localhost</id>
+        <name>localhost-releases</name>
+        <url>http://localhost:8081/artifactory/ext-release-local</url>
+    </repository>
+</distributionManagement>
 </project>
